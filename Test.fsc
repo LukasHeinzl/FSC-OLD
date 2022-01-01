@@ -1,0 +1,13 @@
+start;
+	print "Bitte gib deine Lieblingszahl ein: ";
+	var num;
+	read num;
+	if $num < 10:
+		print "{num} < 10!$n";
+	else;
+		print "{num} >= 10$n";
+	if;
+	
+	var cool = 45;
+	vprint cool; print " ist cooler.";
+end;
